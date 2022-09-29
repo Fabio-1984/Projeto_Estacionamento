@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+      body{
+      background-image: url(https://thumbs.dreamstime.com/b/fundo-preto-da-parede-de-tijolo-119596329.jpg);
+      color:white;
+      font-size: 20px;
+    }
+
+    input{
+      color: black;
+    }
+
+    select{
+      color: black;
+    }
+
+    </style>
+
+    <title> Cadastrar Cliente</title>
+</head>
+<body>
+  <a href="Principal.html"> <b>Menu</b></a>
+    <h1> Cadastrar Cliente </h1>
+
+    <form>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"> <b>E-mail:</b> <i class="glyphicon glyphicon-user"></i></span>
+          <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>Nome:</b></span>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="Nome...">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>Sobrenome:</b></span>
+          <input id="msg" type="text" class="form-control" name="msg" placeholder="Sobrenome...">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>CPF:</b></span>
+          <input type="text" name="cpf" 
+			    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" 
+			    title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+		    <b><input type="submit" value="Verificar"></b>
+        </div>
+        <br>
+       
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>Habilitação</b></span>
+          <input id="msg" type="number" class="form-control" name="msg" placeholder="xxxxxxxxx-xxx">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>Data de Nascimento:</b></span>
+          <input id="data-toggle" type="date" class="form-control" name="data-target" placeholder="Data de Nascimento...">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"><b>Celular / Telefone:</b></span>
+          <input id="msg" type="number" class="form-control" name="msg" placeholder="(xx)9xxxx-xxxx - (xx)xxxx-xxxx">
+        </div>
+        <br>
+        <div class="input-group col-xs-5">
+          <span class="input-group-addon"> <b>Tipo De Cliente</b> <i class="glyphicon glyphicon-user"></i></span>
+            <select  name="Tipo De Cliente">
+              <option value="Mensal">Mensal</option> 
+              <option value="Avulso">Avulso</option> 
+            </select>
+          </div>
+          <br>
+          <p>Atrelar veículo ao cadastro do usuário<a href="Cadastro_Veiculo.html"> <b>Clique aqui! </b></a></p>
+          <button type="button" class="btn btn-success btn-lg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><b> Cadastrar</b></font></font></button>
+      </form>
+      <br>
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        
+        body{
+          background-image: url(https://thumbs.dreamstime.com/b/fundo-preto-da-parede-de-tijolo-119596329.jpg);
+          color:white;
+          font-size: 20px;
+        }
+
+        textarea{
+          height: 200px;
+          width: 360px;
+        }
+      </style>
+
+    <title>Suporte</title>
+</head>
+<body>
+    <a href="Principal.html"> <b>Menu</b></a>
+
+    <h1>Suporte</h1>
+    <p>Este é o canal de suporte para resolução de problemas com o acesso ao sistema ou problemas com o ticket gerado. <br>
+    Preencha os campos abaixo com as informações solicitadas e um breve resumo sobre o problema que está enfrentando.</p>
+    
+    <form action="/action_page.php">
+        <label for="fname">Nome: </label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">E-mail:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+
+            <p><b>Descreva o problema que está enfrentando:</b></p>
+            <div class="form-group">
+              <textarea class="form-control" rows="8" id="comment"></textarea>
+            </div>
+
+                 <p> Se desejar, coloque uma foto da tela onde está com problemas, formatos aceitos: <b>.jpg .png.</b></p>
+                 <input type="file" name="arquivos" multiple><br><br>
+            <input type="submit" value="Enviar">
+          </form>
+
+</body>
+</html>
