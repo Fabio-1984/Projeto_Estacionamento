@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body{
+      
+      background-image: url(https://thumbs.dreamstime.com/b/fundo-preto-da-parede-de-tijolo-119596329.jpg);
+      color:white;
+      font-size: 25px;
+      
+    }
+
+    h1{
+      text-align: center;
+    }
+    
+    .container{
+       width: 40%;
+       margin-top: 35px;
+    }
+    
+    /*Estilo do botão*/
+    
+    .largura{
+    
+       width: 50%;
+    
+    }
+    
+    /*Estilo do link*/
+    
+    
+  
+    a:link{
+       text-decoration : none;
+       font-size: 20px;
+       color: white;
+       margin-left: 160px;
+              
+    }
+    
+    a:visited{
+       text-decoration : none;
+       color: white;
+    
+    }
+    
+    /*Formatação do formulário*/
+    
+    form{
+       background-color: black;
+       
+    
+    }
+    
+    input[type=text]{
+      width: 80%;
+      margin: auto;
+      
+    }
+    
+    input[type=password]{
+      width: 80%;
+      margin: auto;
+    }
+
+    </style>
+
+    <title>Tele de Login</title>
+</head>
+<body>
+     <div class="container" >
+        
+        <form action="" id="formulario">
+        <br>
+          <h1>Estacionamento R.A.R.F</h1>
+          <div class="form-group form-group-lg">
+            
+           <label for="login"></label>
+            <input type="text" class="form-control"id="login" placeholder="Digite o seu usuário">
+          </div>
+          <div class="form-group form-group-lg">
+            <label for="pwd"></label>
+           <input type="password" class="form-control" id="pwd" placeholder="Digite a sua senha">
+          </div><br>
+           <div class="text-center">
+          <button type="submit" class="btn btn-success btn-lg largura ">Entrar </button>
+          </div><br>
+         
+          <a href="#"> Esqueceu a senha?</a>
+          <br><br>
+          
+         
+          
+        </form>
+      </div>    
+</body>
+</html>
