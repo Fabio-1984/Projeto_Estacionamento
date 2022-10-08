@@ -4,9 +4,9 @@ Versionamento do nosso projeto
 
    Nesta primeira versão criamos
    a estrurura do projeto com:
-      Liguagem de marcação HTML
-      Linguagem de stylo CSS
-      Framwork BOOTSTRAP
+      - Liguagem de marcação HTML
+      - Linguagem de stylo CSS
+      - Framwork BOOTSTRAP
    
 Versão 2 do projeto adicionada data 04/10/2022
 
