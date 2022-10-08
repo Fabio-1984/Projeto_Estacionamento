@@ -1,9 +1,9 @@
 # Projeto_Estacionamento
 
-Versionamento do nosso projeto
+# Versionamento do nosso projeto
 
-   Nesta primeira versão criamos
-   a estrurura do projeto com:
+  - Nesta primeira versão criamos
+    a estrurura do projeto com:
       - Liguagem de marcação HTML
       - Linguagem de stylo CSS
       - Framwork BOOTSTRAP
