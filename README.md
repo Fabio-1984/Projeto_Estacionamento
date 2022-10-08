@@ -5,6 +5,7 @@
   - Nesta primeira versão criamos
     a estrurura do projeto com:
       - Liguagem de marcação HTML
+  - O estilo do projeto com:  
       - Linguagem de style CSS
       - Framwork BOOTSTRAP
    
@@ -21,3 +22,10 @@
    - Nesta versão foi criado.
        - Um menu de administrador com as opções dos papéis referente ao sistema.
        - A opções criadas são: Usuário e Administrador
+       
+ # Versão 5 do projeto adicionada data 08/10/2022   
+    
+    - Nesta versão foi atualizado:
+        - Os campos do formuário da tela cadastro de clientes, Veículo e usuário.
+        - Foi realizaddo também formatações nas telas.
+        
