@@ -23,9 +23,16 @@
        - Um menu de administrador com as opções dos papéis referente ao sistema.
        - A opções criadas são: Usuário e Administrador
        
- # Versão 5 do projeto adicionada data 08/10/2022   
+# Versão 5 do projeto adicionada data 08/10/2022   
     
     - Nesta versão foi atualizado:
         - Os campos do formuário da tela cadastro de clientes, Veículo e usuário.
         - Foi realizaddo também formatações nas telas.
+        
+ # Versão 6 do projeto adicionada data 09/10/2022     
+     
+     - Nesta versão foi atualizado:
+         - Os formulários das telas cadastro de clientes, veículo e usuário.
+         - nas telas cliente e veículo foi invertido a sequencia da ordem dos campos.
+         - Na tela criar usuário foi removido o campo confirmar a senha.
         
