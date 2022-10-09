@@ -11,6 +11,7 @@ Versão 2 clonada para repositorio Rafael Vieira
   - Nesta primeira versão criamos
     a estrurura do projeto com:
       - Liguagem de marcação HTML
+  - O estilo do projeto com:  
       - Linguagem de style CSS
       - Framwork BOOTSTRAP
    
@@ -27,8 +28,28 @@ Versão 2 clonada para repositorio Rafael Vieira
    - Nesta versão foi criado.
        - Um menu de administrador com as opções dos papéis referente ao sistema.
        - A opções criadas são: Usuário e Administrador
+<<<<<<< HEAD
 >>>>>>> 0d275c128919506f58e22356012baaf4dd9f7491
 
 
 Teste Rafael Vieira
 att 
+=======
+       
+# Versão 5 do projeto adicionada data 08/10/2022   
+    
+    - Nesta versão foi atualizado:
+        - Os campos do formuário da tela cadastro de clientes, Veículo e usuário.
+        - Foi realizaddo também formatações nas telas.
+        
+ # Versão 6 do projeto adicionada data 09/10/2022     
+     
+     - Nesta versão foi atualizado:
+         - Os formulários das telas cadastro de clientes, veículo e usuário.
+         - nas telas cliente e veículo foi invertido a sequencia da ordem dos campos.
+         - Na tela criar usuário foi removido o campo confirmar a senha.
+        
+>>>>>>> 5444ee91c5a825f10ef6731d86e5902ce7ca6ff3
+
+Teste Git SM Rafael vieira
+
