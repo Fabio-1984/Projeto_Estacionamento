@@ -58,7 +58,7 @@ Teste Git SM Rafael vieira
        - Foi adicionado um campo placa do carro no formulário da tela cadastro de clientes.
        - Enviado o dicionario de dados atualizado com a informação adicionada.
        
-Versão 8 do projeto adicionada data 12/10/2022
+ # Versão 8 do projeto adicionada data 12/10/2022
     - Nesta versão foi atualizado.
        - Foi ajustado a formatação a tela de cadastro de cliente.
        - Enviado o dicionario de dados atualizado.
