@@ -53,3 +53,8 @@ att
 
 Teste Git SM Rafael vieira
 
+ # Versão 6 do projeto adicionada data 09/10/2022  
+    - Nesta versão foi atualizado:
+       - Foi adicionado um campo placa do carro no formulário da tela cadastro de clientes
+       - Enviado o dicionario de dados atualizado com a informação adicionada
+
