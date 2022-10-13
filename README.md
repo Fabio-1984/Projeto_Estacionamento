@@ -62,4 +62,6 @@ Teste Git SM Rafael vieira
     - Nesta versão foi atualizado.
        - Foi ajustado a formatação a tela de cadastro de cliente.
        - Enviado o dicionario de dados atualizado.
+       - Modificado tela de Consulta de ticket (CSS conforme tela de consulta de veiculos)
+       - Modificado Botoes Home das paginas que estavam sem CSS 
     

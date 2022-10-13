@@ -15,6 +15,26 @@
       font-size: 20px;
     }
     
+     .container{
+      
+      margin-left: 500px;
+   
+      margin-top: 30px;
+      
+      width: 400px;
+      
+      height: 350px;
+      
+      background-color: rgba(0, 0, 0, 0.6);
+    
+    }
+    
+     #bt{
+       margin-left: 25px;
+       margin-top: 5px;
+       font-size: 16px;
+      
+    }
     
 
   </style>
@@ -23,17 +43,21 @@
 </head>
 <body>
 
-  <a href="Principal.html"> <b>Menu</b></a>
+   <a href="Principal.html"><button type="button" id="bt" class="btn btn-default btn-sm">
+  <span class="glyphicon glyphicon-hand-left">HOME</span>
+</button></a>
 
-      <h1>Consultar de Tickets</h1>
-      
-      <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="container">
+           
+      <form class="navbar-form navbar-left" action="">
+      <h1 style="margin-left: 5px">Consultar de Tickets</h1>
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Nº do Ticket..." name="search">
         </div>
         <button  type="submit" class="btn btn-success"> Pesquisar</button>
         <br>
     </form>
+     </div>
 
 </body>
 </html>
