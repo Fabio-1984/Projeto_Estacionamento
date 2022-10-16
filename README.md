@@ -69,7 +69,7 @@ Teste Git SM Rafael vieira
   # Versão 9 do projeto adicionada data 16/10/2022
       - Nesta versão foi atualizado.
          - Criado um arquivo em javascript para validação dos formulários
-         - Criado as tabelas cliente, vaeículo e usuário no MYSQL
+         - Criado as tabelas cliente, veículo e usuário no MYSQL
          - Realizado o teste de comunicação da aplicação com o Banco de dados
          - Criado o padrão MVC para configurações e comunicação do front end com o banco de dados através de um controle.
          
