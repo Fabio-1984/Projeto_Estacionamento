@@ -70,7 +70,7 @@ Teste Git SM Rafael vieira
       - Nesta versão foi atualizado.
          - Criado um arquivo em javascript para validação dos formulários
          - Criado as tabelas cliente, veículo e usuário no MYSQL
-         - Realizado o teste de comunicação da aplicação com o Banco de dados
-         - Criado o padrão MVC para configurações e comunicação do front end com o banco de dados através de um controle.
+         - Realizado o teste de comunicação da aplicação com o Banco de dados utilizando o JDBC
+         - Criado a camada MVC para realizar as configurações do CRUD para a comunicação do front end com o banco de dados.
          
     
