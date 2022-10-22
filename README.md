@@ -73,4 +73,12 @@ Teste Git SM Rafael vieira
          - Realizado o teste de comunicação da aplicação com o Banco de dados utilizando o JDBC
          - Criado a camada MVC para realizar as configurações do CRUD para a comunicação do front end com o banco de dados.
          
+   # Versão 10 do projeto adicionada data 22/10/2022
+      - Nesta versão foi atualizado.   
+         - Foi criado a Classe Cliente para receber os dados.
+         - Foi criado a classe Controller para trabalhar com as requisições e respostas da aplicação
+         - Foi criado a Classe DAO para a comunicação com o banco MYSQL e manipulação de dados
+         - Foi criados métodos de inserção e visualização de dados no MYSQL e realizado testes homologados e funcionando
+         - Foi criado um arquivo JSP para receber os dados listados do MYSQL
+         
     
