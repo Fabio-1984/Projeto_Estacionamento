@@ -79,6 +79,6 @@ Teste Git SM Rafael vieira
          - Foi criado a classe Controller para trabalhar com as requisições e respostas da aplicação
          - Foi criado a Classe DAO para a comunicação com o banco MYSQL e manipulação de dados
          - Foi criados métodos de inserção e visualização de dados no MYSQL e realizado testes homologados e funcionando
-         - Foi criado um arquivo JSP para receber os dados listados do MYSQL
+         - Foi criado um arquivo JSP para receber os dados listados do MYSQL. Testado , funcionando e homologado.
          
     
