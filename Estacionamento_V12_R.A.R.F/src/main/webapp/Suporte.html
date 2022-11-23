@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        
+        body{
+          background-image: url(https://thumbs.dreamstime.com/b/fundo-preto-da-parede-de-tijolo-119596329.jpg);
+          color:white;
+          font-size: 20px;
+          display: inline;
+          
+        }
+        
+        .container{
+           margin-top: 1px;
+           width: 81%;
+           
+           
+      
+           background-color: rgba(0, 0, 0, 0.6);
+        }
+        
+       
+        textarea{
+        
+          height: 200px;
+          width: 360px;
+        }
+        
+        /*Estilo do botão*/
+        
+        #bt{     
+        
+       margin-left: 10px;
+       margin-top: 10px;
+       font-size: 16px;
+    
+    }
+    
+     .largura{
+    
+       width: 20%;
+       color: white;
+       margin-left: 65px;
+       margin-bottom: 15px;
+    
+    }
+    
+     input[type=submit]{
+        
+        color: black;
+        display:inline;
+       
+        
+      
+    }
+        
+        
+      </style>
+
+    <title>Suporte</title>
+</head>
+<body>
+    
+     <a href="Principal.html"><button type="button" id="bt" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-hand-left">HOME</span>
+             </button></a>
+     
+    
+    <div class="container">
+    
+    
+    
+    <form action="insertS" id="supor">
+         
+         <h1 class="text-center">Suporte</h1>
+         <p>Este é o canal de suporte para resolução de problemas com o acesso ao sistema ou problemas com o ticket gerado. <br>
+           Preencha os campos abaixo com as informações solicitadas e um breve resumo sobre o problema que está enfrentando.</p>
+        
+        <div class="input-group col-xs-4 form-group-sm">
+        <label for="fname"></label>
+        <input type="text" id="fname" class="form-control" name="fname" value="" placeholder="Digite aqui o seu nome"><br>
+        </div>
+        
+        <div class="input-group col-xs-4 form-group-sm">
+        <label for="lname"></label><br>
+        <input type="text" id="email" class="form-control" name="email" value="" placeholder="Digite aqui o seu e-mail">
+        </div><br>
+
+            
+            <div class="input-group col-xs-4">
+              <textarea class="form-control" rows="7" id="comment" name="info" placeholder="Descreva o problema que está enfrentando:"></textarea>
+            </div><br>
+
+                
+                 
+                
+                 <input type="file" name="arquivos"	id="arquivos"><br>              
+                  
+                  <button type="submit" class="btn btn-success btn-lg largura ">Enviar </button>
+                  
+          <br>
+         
+          </form>
+          </div>
+          
+           
+</body>
+</html>
